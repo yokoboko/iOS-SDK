@@ -1,0 +1,82 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MySDK",
+        "printedName": "MySDK",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MySDK",
+                "printedName": "MyFramework.MySDK",
+                "usr": "s:11MyFramework0A3SDKC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MyFramework0A3SDKCACycfc",
+            "mangledName": "$s11MyFramework0A3SDKCACycfc",
+            "moduleName": "MyFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getMainBundleId",
+            "printedName": "getMainBundleId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MyFramework0A3SDKC15getMainBundleIdSSSgyF",
+            "mangledName": "$s11MyFramework0A3SDKC15getMainBundleIdSSSgyF",
+            "moduleName": "MyFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11MyFramework0A3SDKC",
+        "mangledName": "$s11MyFramework0A3SDKC",
+        "moduleName": "MyFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
